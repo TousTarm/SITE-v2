@@ -1,7 +1,7 @@
 <?php
-$conn = new mysqli("localhost","root","","toustbook_db");
-if ($conn->connect_error) {
+$mysqli = new mysqli("localhost","root","","toustbook_db");
+if ($mysqli->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
-// echo "Connected successfully";
+return $mysqli;
 ?>
