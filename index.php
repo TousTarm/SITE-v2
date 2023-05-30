@@ -9,17 +9,15 @@
         $user = $result->fetch_assoc();
     }
 ?>
-
-<html>
-    <head>
-        <title>TousTbook</title>
-    </head>
-    <body>
-    <?php include "html/nav.html";?>
-    <?php if(isset($user)):?>
+    <?php require("content/bodyup1.html"); ?>
+    <link href="css/index.css" rel="stylesheet">
+    <link href="css/style_index.css" rel="stylesheet">
+    <?php require("content/bodyup2.html"); ?>
+    <?php include "phpcon/nav.php";?>
+    <?php if(isset($_SESSION["iduser"])):?>
         <?php require("phpcon/indexsi.php");?>
     <?php else: ?>
-        <h1>WELCOME TO TOUSTBOOK</H1>
+        <?php include("content/indexbody.html");?>
     <?php endif; ?>
     </body>
 </html>

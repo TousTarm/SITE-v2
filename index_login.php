@@ -1,3 +1,4 @@
+<?php session_start();?>
 <?php
 require "php/connect.php";
 $is_valid = false;
@@ -18,6 +19,7 @@ if($_SERVER["REQUEST_METHOD"] === "POST"){
         if ($_POST["password"] == $user["password"]){
             session_start();
             $_SESSION["iduser"] = $user["iduser"];
+            $_SESSION["nickname"] = $user["nickname"];
             header("Location: index.php");
         }
     }
@@ -25,12 +27,11 @@ if($_SERVER["REQUEST_METHOD"] === "POST"){
 }
 
 ?>
-<html>
-    <head>
-        <title>TousTbook</title>
-    </head>
-    <body>
-    <?php include "html/nav.html";?>
+<?php require("content/bodyup1.html"); ?>
+<link href="css/index.css" rel="stylesheet">
+<link href="css/style_login.css" rel="stylesheet">
+<?php require("content/bodyup2.html"); ?>
+    <?php include "phpcon/nav.php";?>
         <h3>Log in!</h3>
             <form action="" method="post">
                 <input type="text" name="nickname" placeholder="nickname">

@@ -12,10 +12,11 @@
         $stmt = $mysqli->prepare("INSERT INTO friend (idfriend,user_iduser) values (?,?)");
         $stmt->bind_param("ss",$friend["iduser"],$_SESSION["iduser"]);
         $stmt->execute();
+        $stmt->bind_param("ss",$_SESSION["iduser"],$friend["iduser"]);
+        $stmt->execute();
         $stmt->close();
         $mysqli->close();
-        echo"Friend succesfully added";
-        echo"<a href=/index.php>GO BACK</a>";
+        header("Location:/index.php");
     }
     else{
         header("location:/index.php");

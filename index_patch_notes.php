@@ -1,9 +1,9 @@
-<html>
-    <head>
-        <title>TousTbook</title>
-    </head>
-    <body>
-    <?php include "html/nav.html";?>
+<?php session_start();?>
+<?php require("content/bodyup1.html"); ?>
+<link href="css/index.css" rel="stylesheet">
+<link href="css/style_patch_notes.css" rel="stylesheet">
+<?php require("content/bodyup2.html"); ?>
+    <?php include "phpcon/nav.php";?>
         <p>15.04</p>
         <p>Added patchnotes and about creaotr</p>
         <p>File managment (all files renamed)</p>
@@ -16,5 +16,21 @@
         <p>synced with github</p>
         <p>fixed database</p>
         <p>realised i have only 6 days left (im fucked)</p>
+        <p>30.05</p>
+        <p>created bothsided friendlist</p>
+        <p>created template for css</p>
+        <p>created content file</p>
+        <p>fixed head and upper body of all index files</p>
+        <p>fixed bugged navbar</p>
+        <p>added index chat layout<p>
+        <p>fixed database (again)</p>
+        <p>fixed navbar and added your profile on right side</p>
+        <p>cretated chat connecting script</p>
+        <p>a lot small details<p>
+        <p>31.05</p>
+        <p>fixed onesided chat</p>
+        <p>created startchat.php file</p>
+        <p>created css layout for chat</p>
+
     </body>
 </html>

@@ -1,0 +1,67 @@
+body{
+    height:100%;
+}
+#a1{
+    background-color: black;
+    color:rgb(51, 153, 255);
+}
+.mainsi{
+    display:flex;
+    height:95%;
+}
+.chat{
+    width:80%;
+}
+.chat *{
+    text-align: center;
+    width:auto;
+}
+.chat h3{
+    font-size: 300%;
+    padding-top:20px;
+    padding-bottom:70px;
+}
+.friendlist{
+    background-color:  #262626;
+    width:20%;
+    text-align: center;
+    height:auto;
+}
+a{
+    color:rgb(51, 153, 255);
+}
+#logout{
+    margin-top:auto;
+}
+.line{
+    display:flex;
+}
+.left{
+    float:left;
+    width:auto;
+    padding:15px;
+    background-color: rgb(51, 153, 255);
+    color:black;
+    margin-left: 20px;
+    border-radius: 15px;
+}
+.right{
+    max-width:30%;
+    margin-left:auto;
+    width:auto;
+    padding:15px;
+    background-color: rgb(145, 200, 255);
+    color:black;
+    margin-right: 20px;
+    border-radius: 15px;
+}
+
+/*----------------------------------------------------------------------------UNSIGNED-----------------------------------------------------------------*/
+.main{
+    text-align: center;
+    width:100%;
+}
+#headline{
+    font-size: 300%;
+    margin-bottom: 15%;
+}
