@@ -1,0 +1,11 @@
+Friend requesty
+input system pro chat
+upravit friendlist a hlavne friend tlacitka!!
+upravit vsechny indexy
+maybe even vytvorit moznost nahravani obrazku?
+a ofc responsivni design pain 
+vytvorit uzivatelske profily mozna idk
+vytvorit pravidla pro singup
+your ideas tab 
+    formular pro zasilani napadu
+    byl by to basicly jeden velky chat jako ten belaud

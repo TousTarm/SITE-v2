@@ -31,6 +31,9 @@
         <p>fixed onesided chat</p>
         <p>created startchat.php file</p>
         <p>created css layout for chat</p>
+        <p>created message input</p><br>
+        <h3>THIS IS THE POINT WHERE I CONSIDER THIS PROJECT FINISHED</h3><br>
+        <p>updated index layout</p>
 
     </body>
 </html>

@@ -9,8 +9,8 @@ body{
     display:flex;
     height:95%;
 }
-.chat{
-    width:80%;
+.chatside{
+    width:88%;
 }
 .chat *{
     text-align: center;
@@ -23,7 +23,7 @@ body{
 }
 .friendlist{
     background-color:  #262626;
-    width:20%;
+    width:12%;
     text-align: center;
     height:auto;
 }
@@ -37,25 +37,81 @@ a{
     display:flex;
 }
 .left{
+    display:flexbox;
+    max-width:40%;
     float:left;
     width:auto;
-    padding:15px;
+    padding:12px;
     background-color: rgb(51, 153, 255);
     color:black;
     margin-left: 20px;
     border-radius: 15px;
+    margin-top:10px;
 }
 .right{
     max-width:30%;
     margin-left:auto;
     width:auto;
-    padding:15px;
+    padding:12px;
     background-color: rgb(145, 200, 255);
     color:black;
     margin-right: 20px;
     border-radius: 15px;
+    margin-top:10px;
 }
-
+.bottom{
+    bottom:0px;
+    width:88%;
+    height:8%;
+    position:absolute;
+    bottom:0;
+    background-color: rgb(54, 54, 54);
+}
+.bottom input[name="message"]{
+    width:90%;
+    padding:10px;
+    margin-top:18px;
+    margin-left:20px;
+    border-radius: 10px;
+}
+.bottom input[type="submit"]{
+    padding:10px 20px;
+ 
+    margin-left:40px;
+}
+.friendlist{
+    font-weight: 300;
+    font-size: 120%;
+}
+.friends input[type="submit"]{
+    width:100%;
+    padding:10px 30px;
+    font-weight: 300;
+    border-radius: 0;
+    box-shadow: none;
+    background-color: rgb(51, 153, 255);
+    border:1px solid #262626;
+}
+#logout{
+    position:absolute;
+    bottom:2%;
+    right:4%;
+}
+#addfriend input[type="text"]{
+    margin-top:10px;
+    width:90%;
+    border-radius: 7px;
+    border:none;
+    padding:5px;
+}
+#addfriend input[type="submit"]{
+    margin-top:15px;
+    padding:10px;
+    margin-bottom:20px;
+}
+#headlinefriend{
+    margin-top:20px;
+}
 /*----------------------------------------------------------------------------UNSIGNED-----------------------------------------------------------------*/
 .main{
     text-align: center;
