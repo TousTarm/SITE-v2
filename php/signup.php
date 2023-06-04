@@ -1,6 +1,19 @@
 <?php
     require_once "connect.php";
-
+/*
+    if(empty($_POST["nickname"])){
+    die("Nickname is required");
+}
+    if(!filter_var($_POST["email"], FILTER_VALIDATE_EMAIL)){
+    die("Valid email required");
+}
+if (strlen($_POST["password"])<=8){
+    die("Password must be longer than 8 characters");
+}
+if ($_POST["password2"] !== $_POST["password"]){
+    die("Passwords do not match");
+}     
+*/
     $nickname = $_POST['nickname'];
     $password = $_POST['password'];
     $name = $_POST['name'];
@@ -12,12 +25,6 @@
     $stmt->execute();
     $stmt->close();
     $mysqli->close();
-
+    echo"KURVAAAAAAAAAAAA";
+    header("Location:/index_login.php");
 ?>
-
-<html>
-    <body>
-        <p>Sing up succesfull, you can now log in</p>
-        <a href="/index_login.php">LOG IN</a>
-    </body>
-</html>

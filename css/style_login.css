@@ -2,3 +2,27 @@
     background-color: black;
     color:rgb(51, 153, 255);
 }
+.main{
+    display:flex;
+    justify-content: center;
+    
+}
+.login{
+border-radius: 20px;
+    color:black;
+    padding:120px 70px;
+    margin-top:130px;
+    background-color: rgb(51, 153, 255);
+}
+input{
+    padding: 8px;
+    margin:5px 0;
+    border-radius: 8px;
+    border:none;
+}
+.tag{
+
+    text-align: center;
+    margin-bottom:40px;
+    font-size: 300%;
+}

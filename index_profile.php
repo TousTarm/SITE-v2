@@ -5,6 +5,8 @@
 <?php require("content/bodyup2.html"); ?>
     <?php include "phpcon/nav.php";?>
     <body>
-        
+        <div class="main">
+            <?php require("phpcon/profile.php");?>
+        </div>
     </body>
 </html>

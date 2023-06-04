@@ -10,7 +10,7 @@ if(!isset($_SESSION["iduser"])){
 }?>
 <div id="signedas">
 <?php
- if(isset($_SESSION["iduser"])){
+if(isset($_SESSION["iduser"])){
     echo "<a href='index_profile.php' id='a7'>SIGNED AS ".strtoupper($_SESSION["nickname"])."</a>";
 }
 ?>

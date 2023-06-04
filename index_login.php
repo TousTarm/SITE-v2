@@ -20,6 +20,7 @@ if($_SERVER["REQUEST_METHOD"] === "POST"){
             session_start();
             $_SESSION["iduser"] = $user["iduser"];
             $_SESSION["nickname"] = $user["nickname"];
+            $_SESSION["idprofilepic"] = $user["idprofilepic"];
             header("Location: index.php");
         }
     }
@@ -32,14 +33,20 @@ if($_SERVER["REQUEST_METHOD"] === "POST"){
 <link href="css/style_login.css" rel="stylesheet">
 <?php require("content/bodyup2.html"); ?>
     <?php include "phpcon/nav.php";?>
-        <h3>Log in!</h3>
-            <form action="" method="post">
-                <input type="text" name="nickname" placeholder="nickname">
-                <br>
-                <input type="text" name="password" placeholder="password">
-                <br>
-                <input type="submit" value="send">
-            </form>
-            <?php if ($is_valid == true) { echo "<p>invalid login</p>";}?>
+        <div class="main">
+            <div class="login">
+                <div class="tag">
+                    <h3>Log in!</h3>
+                </div>
+                <form action="" method="post">
+                    <input type="text" name="nickname" placeholder="nickname">
+                    <br>
+                    <input type="password" name="password" placeholder="password">
+                    <br>
+                    <input type="submit" value="log in!">
+                </form>
+                <?php if ($is_valid == true) { echo "<p>invalid login</p>";}?>
+            </div>
+        </div>
     </body>
 </html>

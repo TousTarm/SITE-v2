@@ -19,6 +19,9 @@ nav a{
    color:black;
    background-color: rgb(51, 153, 255);
 }
+nav a:hover{
+    background-color: rgb(98, 177, 255);
+}
 #signedas{
     display:flex;
     margin-left:auto;

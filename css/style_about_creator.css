@@ -2,3 +2,37 @@
     background-color: black;
     color:rgb(51, 153, 255);
 }
+.upper{
+    height:25%;
+    justify-content: center;
+}
+.down{
+    height:60%;
+    background-color: rgb(51, 153, 255);
+    color:black;
+}
+#imgmid{
+    text-align: center;
+    
+}
+#imgmid img{
+    background-color: rgb(51, 153, 255);
+    margin-top:7%;
+    border-radius: 120px;
+    padding:50px;
+}
+.left{
+    padding-top:3%;
+    padding-left: 5%;
+    padding-right:60%;
+}
+.bottom{
+    display:flex;
+    height:10%;
+    justify-content: center;
+    background-color: rgb(51, 153, 255);
+}
+.bnav{
+    text-align: center;
+    width:auto;
+}
