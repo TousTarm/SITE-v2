@@ -14,7 +14,6 @@
         <p>created one sided friendlist</p>
         <p>synced with github</p>
         <p>fixed database</p>
-        <p>realised i have only 6 days left (im fucked)</p>
         <p>created bothsided friendlist</p>
         <p>created template for css</p>
         <p>created content file</p>
