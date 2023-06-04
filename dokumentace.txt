@@ -1,0 +1,4 @@
+do xamppu akorát zadáte documentroot ../SITE-v2
+a v mysql workbench pouze spustíte sql/run.sql
+pokud chcete defaultní usery tak ti jsou v user.sql, tam pouze insertnete 2. řádek
+stránka by pak měla naběhnout
