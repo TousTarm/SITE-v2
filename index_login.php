@@ -23,7 +23,6 @@ if($_SERVER["REQUEST_METHOD"] === "POST"){
             $_SESSION["name"] = $user["name"];
             $_SESSION["surname"] = $user["surname"];
             $_SESSION["email"] = $user["email"];
-            $_SESSION["idprofilepic"] = $user["idprofilepic"];
             header("Location: index.php");
         }
     }
