@@ -1,3 +1,7 @@
+.main{
+    font-size: 150%;
+}
+
 #a7{
     background-color: black;
     color:rgb(51, 153, 255);
@@ -5,4 +9,41 @@
 .main{
     padding-top:80px;
     padding-left:200px;
+    display:flex;
+
+}
+.profilepic{
+    text-align: center;
+    width:300px;
+    height:300px;
+    border:2px solid rgb(51, 153, 255);
+}
+.datatable{
+    padding-left:500px;
+}
+hr{
+    width:450px;
+    color:rgb(51, 153, 255);
+    size:2px;
+}
+.data{
+    margin:40px 0;
+}
+#pp{
+    margin-top:120px;
+}
+#update_profile{
+    width:450px;
+    padding:10px;
+    background-color:rgb(51, 153, 255);
+    border:none;
+    border-radius:10px;
+}
+input[type="text"]{
+    padding-left:10px;
+    background-color: black;
+    color:rgb(51, 153, 255);
+    font-size: 120%;
+    border:2px solid rgb(51, 153, 255);
+    width:450px;
 }

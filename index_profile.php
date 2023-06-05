@@ -6,7 +6,14 @@
     <?php include "phpcon/nav.php";?>
     <body>
         <div class="main">
-            <?php require("phpcon/profile.php");?>
+            <?php 
+                if(isset($_GET["update_profile"])){
+                    require("phpcon/update_profile.php");
+                }
+                else{
+                    require("phpcon/profile.php");
+                }
+            ?>
         </div>
     </body>
 </html>
